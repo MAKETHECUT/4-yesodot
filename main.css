@@ -530,7 +530,7 @@ p {
   min-width:30vw;
   max-width:30vw;
 }
-
+/*
 #masked-image {
   mask-image: url('/images/4-yesodot-mask.svg');
   -webkit-mask-image: url('/images/4-yesodot-mask.svg');
@@ -543,7 +543,7 @@ p {
   min-width:30vw;
   max-width:30vw;
 }
-
+*/
 /* Hisotric */
 .history {
   width:90%;
