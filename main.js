@@ -75,12 +75,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     requestAnimationFrame(raf);
 
-    lenis.on('scroll', (e) => {
-        if (!canScroll) {
-            return;
-        }
-        console.log(e);
-    });
 
     const tl = gsap.timeline();
     var split = new SplitText("h1,h3,h4,h5,h6", {
