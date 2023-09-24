@@ -1,13 +1,6 @@
 /* Page Settings */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@300;400&display=swap');
-@font-face {
-  font-family: 'grande_italicitalic';
-  src: url('https://cdn.jsdelivr.net/gh/MAKETHECUT/4-yesodot/grande_italic-webfont.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/MAKETHECUT/4-yesodot/grande_italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 :root {
   --grey: #BABABA;
   --white: #ffffff;
@@ -84,7 +77,7 @@ body {
   margin: 3vw;
   font-size: 3vw;
   z-index:1000;
-  font-family: 'grande_italicitalic';
+  font-family: Grande, sans-serif!important;
 }
 a {
   color: inherit;
@@ -406,7 +399,7 @@ p {
   top:-2.5vw;
   right:2vw;
   font-size:6vw;
-  font-family: 'grande_italicitalic'!important;
+  font-family: Grande, sans-serif!important;
 }
 .project-box-number .split-line {
   padding-right:1vw;
@@ -495,7 +488,7 @@ p {
 .big-twentyfive {
   font-size:20vw;
   color:var(--midgrey);
-  font-family: 'grande_italicitalic'!important;
+  font-family: Grande, sans-serif!important;
   margin-top:-7vw;
 }
 .highlights-bullets {
