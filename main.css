@@ -406,7 +406,7 @@ p {
   top:-2.5vw;
   right:2vw;
   font-size:6vw;
-  font-family: 'grande_italicitalic';
+  font-family: 'grande_italicitalic'!important;
 }
 .project-box-number .split-line {
   padding-right:1vw;
@@ -495,7 +495,7 @@ p {
 .big-twentyfive {
   font-size:20vw;
   color:var(--midgrey);
-  font-family: 'grande_italicitalic';
+  font-family: 'grande_italicitalic'!important;
   margin-top:-7vw;
 }
 .highlights-bullets {
