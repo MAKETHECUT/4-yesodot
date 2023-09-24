@@ -1,0 +1,259 @@
+
+@media only screen and (max-width: 768px) {
+    #cursor, .slide-cursor {
+      display:none;
+    }
+    /* Hero section */
+
+    .nav {
+        top:12vw;
+    }
+    .hamburger {
+        right:7vw;
+    }
+    .hamburger img {
+        min-width:10vw;
+        max-width:10vw;
+    }
+    .site-logo {
+        right:21vw;
+    }
+    .site-logo img {
+        min-width:30vw;
+        max-width:30vw;
+    }
+    .contact {
+        left:7vw;
+        top:7vw;
+        font-size: 3vw;
+        width: auto;
+        padding: 2vw 5vw;
+    }
+    .cta-btn {
+        font-size:3vw;
+        display: flex;
+        align-items:center;
+        gap:1vw;
+        opacity:1;
+        overflow:hidden;
+        cursor:pointer;
+      }
+      .cta-btn img {
+        min-width:7.5vw;
+        max-width:7.5vw;
+        gap:1vw;
+        height:7.7vw;
+      }
+      .cta-img {
+        gap:2.2vw;
+        height:7.6vw;
+      }
+    .hero-section {
+        gap:0vw;
+      }
+      .hero-image {
+        padding:10vw;
+      }
+
+      .section {
+        padding: 25vw 10vw!important;
+      }
+    h1 {
+      font-size:15.5vw;letter-spacing:-0.8vw;
+    }
+    h2{
+        font-size:10vw;
+      }
+    h3 {
+        font-size:5vw;
+        letter-spacing:-0.15vw;
+    }
+    h4 {
+        font-size:4vw;
+    }
+    h5 {
+        font-size:3.2vw;
+    }
+    p {
+        font-size:2.8vw;
+    }
+    .hero-texts {
+        padding-top:30vw;
+        flex-direction: column;
+        gap:8vw;
+    }
+    .hero-right-container, .hero-left-container{
+        width:100%;
+    }
+
+    /* Our projects */
+    .headline {
+        margin-top:0vw;
+        margin-bottom:25vw;
+        text-align: center;
+      }
+    .our-projects {
+        flex-direction: column;
+        gap:20vw;
+      }
+      .project-box {
+        min-width:100%;
+        gap:5vw;
+      }
+      .project-box:nth-of-type(even) {
+        margin-top:0vw;
+      }
+      .project-box-number {
+        font-size:18vw;
+        right:5vw;
+        top:-4.4vw;
+      }
+      .project-box-image {
+        height:68vw;
+      }
+      .project-box-image img {
+        height:68vw;
+      }
+      .marketing-badge {
+        top:4.5vw;
+        left:4.5vw;
+        font-size:3.5vw;
+        width:15vw;
+        height:15vw;
+      }
+      .project-box-size {
+        padding:0.2vw 2vw;
+        border-radius:50vw;
+      }
+
+      /* 25 years */
+
+      .highlights {
+        gap:15vw;
+      }
+      .twentyfive {
+        flex-direction: column;
+        position: relative;
+      }
+      .twentyfive h3:nth-of-type(1) {
+        position:absolute;
+        top:0;
+      }
+      .twentyfive h3:nth-of-type(2) {
+        position:absolute;
+        bottom:0;
+        left:0;
+      }
+      .big-twentyfive {
+        font-size:50vw;
+        color:var(--midgrey);
+        font-family: 'grande_italicitalic';
+        margin-top:8vw;
+        margin-bottom:2vw;
+      }
+      .highlights-bullets {
+
+        gap:10vw;
+        width:50vw;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .bullet {
+        width:15vw;
+      }
+      .bullet img {
+        min-width:15vw;
+        max-width:15vw;
+        height:15vw;
+      }
+
+      /* About 4-yesodot */
+
+      .about-4 {
+        flex-direction: column;
+        gap:10vw;
+      }
+      .about-text {
+        display:flex;
+        flex-direction: column;
+        gap:7vw;
+        padding-right:0vw;
+        padding-left:0vw;
+        width:100%;
+      }
+      .about-visual {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .about-visual img {
+        min-width:50vw;
+        max-width:50vw;
+      }
+      #masked-image {
+        mask-image: url('/images/4-yesodot-mask.svg');
+        -webkit-mask-image: url('/images/4-yesodot-mask.svg');
+        mask-mode: alpha;
+        -webkit-mask-mode: alpha;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+        mask-size: cover;
+        -webkit-mask-size: cover;
+        min-width:50vw;
+        max-width:50vw;
+      }
+
+      /* Hisotric */
+
+      .history {
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center!important;
+        width:100%;
+        gap:40vw;
+      }
+      .history-text {
+        position: relative;
+        top:10vw;
+        transform: scale(2.2);
+      }
+      .history-visual {
+        position: relative;
+        transform: scale(2);
+        height:80vw;
+        top:45vw;
+        right:27vw;
+        justify-content: center;
+      }
+
+      /* Footer */
+
+      .footer-content {
+        width: 60vw;
+        gap:8vw;
+        padding-bottom:10vw;
+      }
+      .footer .headline {
+        margin-top:-3vw;
+        margin-bottom:13vw;
+      }
+      .two-symbols {
+        position: absolute;
+        top: 0;
+        left: -22vw;
+      }
+      .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .circle-symbol {
+        top:35vw;
+      }
+      .circle-symbol img {
+        width: 45vw;
+        height: 45vw;
+      }
+  }
